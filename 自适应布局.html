@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自适应布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .item{
+            box-sizing: border-box;
+        }
+        #box1{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        #div1{
+            background: red;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div2{
+            background: orange;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div3{
+            background: yellow;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div4{
+            background: green;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div5{
+            background: aqua;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div6{
+            background: blue;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #div7{
+            background: purple;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div class="item" id="div1">div1</div>
+        <div class="item" id="div2">div2</div>
+        <div class="item" id="div3">div3</div>
+        <div class="item" id="div4">div4</div>
+        <div class="item" id="div5">div5</div>
+        <div class="item" id="div6">div6</div>
+        <div class="item" id="div7">div7</div>
+    </div>
+</body>
+</html>
